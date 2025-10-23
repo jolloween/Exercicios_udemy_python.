@@ -33,3 +33,4 @@ if nome and idade: #string vazia é confrotado com bool. Então é False.
 else:
     print('Desculpe, você deixou campos vazios.')    
  
+
