@@ -24,7 +24,7 @@ while i < len(string):
     letra = string[i]
 
     if letra == ' ':
-        break #como não tem espaços o else foi executado.
+        break #como não tem espaços na vvariavels string o else foi executado.
 
     print(letra)
     i += 1
