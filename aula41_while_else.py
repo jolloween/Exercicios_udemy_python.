@@ -29,5 +29,5 @@ while i < len(string):
     print(letra)
     i += 1
 else:
-    print('Não encontrei um espaço na string.')
+    print('encontrei um espaço na string.')
 print('Fora do while.')
