@@ -6,7 +6,7 @@ while i < len(string):
     letra = string[i]
 
     if letra == ' ':
-        break #encnotrou espaç na string e o else não executado.
+        break #encontrou espaço na string e o else não foi executado.
 
     print(letra)
     i += 1
