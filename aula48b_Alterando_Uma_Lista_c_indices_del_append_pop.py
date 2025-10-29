@@ -5,6 +5,13 @@ Suporta vários valores de qualquer tipo
 Conhecimentos reutilizáveis - índices e fatiamento
 Métodos úteis: append, insert, pop, del, clear, extend, +
 create read update   delete
+    append - Adiciona um item ao final
+    insert - Adiciona um item no índice escolhido
+    pop - Remove do final ou do índice escolhido
+    del - apaga um índice
+    clear - limpa a lista
+    extend - estende a lista
+    + - concatena listas
 criar, ler, alterar, apagar = lista[i] (CRUD)
 
 """
@@ -26,4 +33,6 @@ lista.append('maria') # Adiciona um valor no final da lista.
 ultimo_valor = lista.pop() # foi atribuido a variável o ultimo item removido com a funcão pop
 # ultimo_valor = lista.pop(3) # tabém pode ser removido um item através de índice com a função pop
 print(lista, 'Removido,', ultimo_valor)
+lista.insert(2, 1) #Adiciona um item. O "0" é a posicão e o "1" é valor escolhido para inserir.
+# lista.clear() limpa toda a lista.
 print(lista)
