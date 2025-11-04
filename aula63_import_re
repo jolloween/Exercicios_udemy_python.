@@ -1,0 +1,4 @@
+import re
+cpf = '529.982.247-25'
+cpf = re.sub(r'[^0-9]', '', cpf) # remove tudo que não for número
+print(cpf)
