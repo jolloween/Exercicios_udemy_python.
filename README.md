@@ -1,0 +1,1 @@
+Este repositório reúne exercícios e projetos desenvolvidos ao longo do curso de Python — do nível iniciante ao avançado — realizado na plataforma Udemy. O objetivo é consolidar conceitos e práticas da linguagem.
