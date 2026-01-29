@@ -1,0 +1,4 @@
+variavel_modulo = 'João'
+
+def soma(x, y):
+    return x + y
