@@ -9,8 +9,16 @@
 # print(variavel)
 # print(nova_variavel)
 
-from aula99_package.modulo import fala_oi
+##from aula99_package.modulo import fala_oi
 
-fala_oi()
+#fala_oi()
 
 # print(*path, sep='\n')
+
+from aula99_package import soma, fala_oi, nova_variavel, dobra
+
+# print(aula99_package.dobra(2))
+print(soma(2, 4))
+print(dobra(2))
+fala_oi()
+print(nova_variavel)
