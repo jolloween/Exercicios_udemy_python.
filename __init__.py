@@ -1,9 +1,1 @@
-# print(
-#     'você importou', __name__
-# )
-
-def dobra(x):
-    return x * 2
-
-from aula99_package.modulo import *
-from aula99_package.modulob import *
+from dados.produtos_modulo import produtos
