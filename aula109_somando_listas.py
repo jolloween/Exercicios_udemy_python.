@@ -30,3 +30,6 @@ print(lista_soma)
 #3º forma:
 lista_zip = [x + y for x, y in zip(l1, l2)]
 print(lista_zip)
+
+lista_zip_longest = [x + y for x, y in zip_longest(l1, l2, fillvalue=0)] #mantém os valores da outra lista 
+print(lista_zip_longest)
