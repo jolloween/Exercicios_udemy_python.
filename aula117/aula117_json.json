@@ -1,0 +1,24 @@
+{
+  "nome": "João Paulo",
+  "sobrenome": "Pedrosa Soares",
+  "enderecos": [
+    {
+      "rua": "R1",
+      "numero": 32
+    },
+    {
+      "rua": "R2",
+      "numero": 55
+    }
+  ],
+  "altura": 1.8,
+  "numeros preferidos": [
+    2,
+    4,
+    6,
+    8,
+    7
+  ],
+  "dev": true,
+  "nada": null
+}
